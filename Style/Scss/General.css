@@ -1,0 +1,37 @@
+#calculadora {
+  margin-top: 10%;
+  width: 450px;
+  height: 500px;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#calculadora #campoNumerico {
+  width: 80%;
+  height: 20%;
+  font-size: 4em;
+  text-align: right;
+  border: 10px solid black;
+}
+#calculadora #botones {
+  width: 90%;
+  height: 60%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+#calculadora #botones .button {
+  font-weight: bold;
+  margin: 5px;
+  cursor: pointer;
+}
+
+body {
+  height: 716px;
+  width: 806px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}/*# sourceMappingURL=General.css.map */
